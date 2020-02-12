@@ -4,6 +4,7 @@ package demogithub;
 /* author Muharrem KAYA */
 // added sub method, Muharrem KAYA, 2020
 // added mul method, Derya Kaya, 12 Feb, 2020
+// added div method, Derya Kaya, 12 Feb, 2020
 
   public class DemoGithub 
   {
@@ -12,6 +13,7 @@ package demogithub;
           System.out.println("Sum: "+mySum(5,3));       
           System.out.println("Sub: "+mySub(5,3));   
           System.out.println("Mul: "+myMul(5,3));
+          System.out.println("Div: "+myDiv(5,3));
       } 
       
       public static double mySum(double a, double b)
@@ -29,6 +31,11 @@ package demogithub;
        {
           double mul=a*b;
           return mul;
+      }      
+      public static double myDiv(double a, double b)
+       {
+          double div=a/b;
+          return div;
       }      
       
   }
