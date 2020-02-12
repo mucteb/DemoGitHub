@@ -35,7 +35,7 @@ package demogithub;
       public static double myDiv(double a, double b)
        {
           double div=a/b;
-          return div;
+          return div; 
       }      
       
   }
